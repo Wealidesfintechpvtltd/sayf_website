@@ -1,8 +1,8 @@
 import aes256 from "aes256";
 import axios from "axios";
 
-const API = axios.create({ baseURL: "https://backend.sayf.in/" }); // Development Server
-// const API = axios.create({ baseURL: "https://api.sayf.in/" }); // Production Server
+// const API = axios.create({ baseURL: "https://backend.sayf.in/" }); // Development Server
+const API = axios.create({ baseURL: "https://api.sayf.in/" }); // Production Server
 
 API.interceptors.request.use((req) => {
   var tk = localStorage.getItem("token") || null;

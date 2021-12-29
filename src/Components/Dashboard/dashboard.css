@@ -1,4 +1,4 @@
-.dashboard{
+.dashboard {
     height: fit-content;
     background-color: rgb(238, 238, 238);
     padding: 0px 250px;
@@ -6,7 +6,7 @@
     padding-top: 50px;
 }
 
-.dash-nav{
+.dash-nav {
     background-color: #4445C1 !important;
     display: flex;
     justify-content: space-between;
@@ -15,7 +15,7 @@
     padding-right: 80px;
 }
 
-.dashboard .hero-section{
+.dashboard .hero-section {
     width: 100%;
     height: 300px;
     background-color: #4445C1;
@@ -27,14 +27,14 @@
     border-radius: 10px;
 }
 
-.dashboard .cards .card{
+.dashboard .cards .card {
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
 }
 
-.dashboard .card{
+.dashboard .card {
     background-color: #ffffff;
     height: 200px;
     margin: 10px;
@@ -42,51 +42,55 @@
     color: #000000;
 }
 
-.dashboard .section-three{
+.dashboard .section-three {
     display: flex;
 }
 
-.dashboard .section-three .card{
+.dashboard .section-three .card {
     display: flex;
     align-items: center;
     justify-content: space-around;
     overflow: hidden;
 }
 
-.dashboard .section-three .left, .dashboard .section-three .right{
+.dashboard .section-three .left,
+.dashboard .section-three .right {
     flex: 1;
 }
 
-.dashboard .carousel{
+.dashboard .carousel {
     padding: 20px;
     cursor: pointer;
 }
 
-.dashboard .carousel-item{
+.dashboard .carousel-item {
     padding: 30px;
     text-align: center;
 }
 
-.dashboard .carousel-item img{
+.dashboard .carousel-item img {
     height: 50px;
     width: 50px;
-    background-color: #d5d4fa;
+    object-fit: scale-down;
+    /* border: 2px #000000 solid; */
+    /* background-color: #d5d4fa; */
+    background-color: transparent;
     color: #000000;
     padding: 2px;
 }
 
-.dashboard button{
+.dashboard button {
     padding: 10px;
     background-color: #4445C1;
     color: white;
     border: none;
-    border-radius:  10px;
+    border-radius: 10px;
     box-shadow: 0px 0px 20px gainsboro;
     font-weight: bold;
     cursor: pointer;
 }
 
-.dashboard .im{
+.dashboard .im {
     height: 50px;
     width: 50px;
     border-radius: 50%;
@@ -94,30 +98,30 @@
     color: #000000;
 }
 
-.dashboard .im p{
+.dashboard .im p {
     color: #000000;
 }
 
-.dashboard .left{
+.dashboard .left {
     overflow: hidden;
 }
 
-.dashboard .img{
-    max-width:100%;
-    max-height:100%;
+.dashboard .img {
+    max-width: 100%;
+    max-height: 100%;
     border-radius: 10px;
 }
 
-.dashboard .section-three .right .card{
+.dashboard .section-three .right .card {
     padding: 20px;
 }
 
-.dashboard .section-three .right .card span{
+.dashboard .section-three .right .card span {
     color: #4445C1;
     font-weight: bold;
 }
 
-.dashboard .chrome{
+.dashboard .chrome {
     width: 20px;
 }
 
@@ -125,39 +129,50 @@
     padding: 20px;
 }
 
-.dashboard .section-three .card{
+.dashboard .section-three .card {
     height: fit-content;
 }
 
-.dashboard .progress-content{
+.dashboard .progress-content {
     display: flex;
     justify-content: space-between;
 }
 
+.gold-card {
+    background: rgb(237, 168, 0);
+    background: linear-gradient(322deg, rgba(237, 168, 0, 1) 60%, rgba(244, 240, 185, 1) 100%);
+}
+
+.gold-card p{
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 600;
+}
+
 .progress {
-	background-color: #d8d8d8;
-	border-radius: 20px;
-	position: relative;
-	margin: 15px 0;
-	height: 30px;
-	width: 300px;
+    background-color: #d8d8d8;
+    border-radius: 20px;
+    position: relative;
+    margin: 15px 0;
+    height: 30px;
+    width: 300px;
 }
 
 .progress-done {
-	background: linear-gradient(to left, #4445C1, blue);
-	box-shadow: 0 3px 3px -5px #4445C1, 0 1px 3px #4445C1;
-	border-radius: 20px;
-	color: #fff;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	height: 100%;
-	width: 0;
-	opacity: 0;
-	transition: 1s ease 0.3s;
+    background: linear-gradient(to left, #4445C1, blue);
+    box-shadow: 0 3px 3px -5px #4445C1, 0 1px 3px #4445C1;
+    border-radius: 20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 0;
+    opacity: 0;
+    transition: 1s ease 0.3s;
 }
 
-.grow-list .list-item{
+.grow-list .list-item {
     margin: 10px;
     border-bottom: 2px solid #4445C1;
     padding: 10px;
@@ -171,11 +186,11 @@
     color: white !important;
 }
 
-.deposit button{
+.deposit button {
     box-shadow: none;
     border: 2px solid #ffffff;
 }
 
-.deposit p{
+.deposit p {
     margin: 20px 0px;
 }

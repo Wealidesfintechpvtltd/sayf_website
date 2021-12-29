@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import "./dashboard.css";
 import DashNav from "./DashNav";
 
-import Carousel from 'react-elastic-carousel';
+import Carousel from "react-elastic-carousel";
 import CarouselItem from "./CarouselItem";
 import ProgressBar from "./ProgressBar";
 
@@ -12,20 +12,20 @@ import ProgressBar from "./ProgressBar";
 import img from "./dashboard_assets/7.png";
 import Chrome from "./dashboard_assets/chrome.png";
 
-import { userData, partnerStores } from "../../api";
-
-
+import { userData, partnerStores, userGoldData } from "../../api";
 
 const Dashboard = () => {
   // const user = useParams();
 
-  const [data, setData] = useState({ userInfo: {}, partnerStores: [] });
+  var [data, setData] = useState({ userInfo: {}, partnerStores: [], goldOwnership: {}});
 
   async function getUserInfo() {
     var stores = [];
     var info = {};
+    var gold = {};
     var res = await userData();
     var sRes = await partnerStores();
+    var gRes = await userGoldData();
 
     if (sRes.status === 200) {
       stores = sRes.data;
@@ -33,13 +33,16 @@ const Dashboard = () => {
     if (res.status === 200) {
       info = res.data;
     }
-    setData({ userInfo: info, partnerStores: stores});
+    if (gRes.status) {
+      gold = gRes.data;
+    }
+
+    setData({ userInfo: info, partnerStores: stores, goldOwnership: gold });
   }
 
   useEffect(() => {
     getUserInfo();
   }, []);
-
 
   return (
     <>
@@ -81,36 +84,16 @@ const Dashboard = () => {
         <div className="section-three">
           <div className="left">
             <div className="card">
-              <Carousel
-               itemsToShow={3}
-              >
-                 <CarouselItem name="vijay" />
-                 <CarouselItem name="vijay" />
-                 <CarouselItem name="vijay" />
-                 <CarouselItem name="vijay" />
-                 <CarouselItem name="vijay" />
-                 <CarouselItem name="vijay" />
-                 <CarouselItem name="vijay" />
-                 <CarouselItem name="vijay" />
-                 <CarouselItem name="vijay" />
-                 <CarouselItem name="vijay" />
-                 <CarouselItem name="vijay" />
-                 <CarouselItem name="vijay" />
-                 <CarouselItem name="vijay" />
-                 <CarouselItem name="vijay" />
-                 <CarouselItem name="vijay" />
-
-                {/* {data.partnerStores != null ? (
-                  data.partnerStores.map((ele, i) => {
-                    return (
-                    <CarouselItem name="vijay" storeData={ele} key={i} />
-                  )})
+              <Carousel itemsToShow={3}>
+                {data.partnerStores.length <= 0 ? (
+                  <p>Getting In More Stores...</p>
                 ) : (
-                  <h1>.....</h1>
-                )} */}
-                
-                
-            
+                  data.partnerStores
+                    .slice(0, Math.min(data.partnerStores.length, 15))
+                    .map((ele, index) => (
+                      <CarouselItem item={ele} key={index} />
+                    ))
+                )}
               </Carousel>
             </div>
             <div className="card">
@@ -150,6 +133,11 @@ const Dashboard = () => {
             </div>
           </div>
           <div className="right">
+            <div className="card gold-card">
+              <p className="small-text" style={{fontSize: "15px", fontWeight: "400"}}>Total Balance</p>
+              <p className="large-text">{"total" in data.goldOwnership ? data.goldOwnership["total"] : "N/A"} gms</p>
+
+            </div>
             <div className="card">
               <p>
                 Earn rewards from 1200+ stores with Sayf Chrome Extension!{" "}
@@ -186,6 +174,4 @@ const Dashboard = () => {
   );
 };
 
-
 export default Dashboard;
-
