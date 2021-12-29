@@ -12,7 +12,7 @@ import ProgressBar from "./ProgressBar";
 import img from "./dashboard_assets/7.png";
 import Chrome from "./dashboard_assets/chrome.png";
 
-import { userData, partnerStores, userGoldData } from "../../api";
+import { userData, partnerStores, userGoldData, userTransactions } from "../../api";
 
 const Dashboard = () => {
   // const user = useParams();
@@ -23,9 +23,11 @@ const Dashboard = () => {
     var stores = [];
     var info = {};
     var gold = {};
+    var tranx = {};
     var res = await userData();
     var sRes = await partnerStores();
     var gRes = await userGoldData();
+    var tRes = await userTransactions();
 
     if (sRes.status === 200) {
       stores = sRes.data;
@@ -36,13 +38,67 @@ const Dashboard = () => {
     if (gRes.status) {
       gold = gRes.data;
     }
+    if (tRes.status) {
+      tranx = tRes.data;
+    }
 
-    setData({ userInfo: info, partnerStores: stores, goldOwnership: gold });
+    setData({ userInfo: info, partnerStores: stores, goldOwnership: gold, transactions: tranx });
   }
 
   useEffect(() => {
     getUserInfo();
   }, []);
+  
+  // const cleanPercentage = (percentage) => {
+  //   const isNegativeOrNaN = !Number.isFinite(+percentage) || percentage < 0; // we can set non-numbers to 0 here
+  //   const isTooHigh = percentage > 100;
+  //   return isNegativeOrNaN ? 0 : isTooHigh ? 100 : +percentage;
+  // };
+  
+  // const Circle = ({ colour, percentage, radius }) => {
+  //   const r = radius;
+  //   const circ = 2 * Math.PI * r;
+  //   const strokePct = ((100 - percentage) * circ) / 100; // where stroke will start, e.g. from 15% to 100%.
+  //   return (
+  //     <circle
+  //       r={r}
+  //       cx={100}
+  //       cy={100}
+  //       fill="transparent"
+  //       stroke={strokePct !== circ ? colour : ""} // remove colour as 0% sets full circumference
+  //       strokeWidth={"2rem"}
+  //       strokeDasharray={circ}
+  //       strokeDashoffset={percentage ? strokePct : 0}
+  //     ></circle>
+  //   );
+  // };
+  
+  // const Text = ({ percentage }) => {
+  //   return (
+  //     <text
+  //       x="50%"
+  //       y="50%"
+  //       dominantBaseline="central"
+  //       textAnchor="middle"
+  //       fontSize={"1.5em"}
+  //     >
+  //       {percentage.toFixed(0)}%
+  //     </text>
+  //   );
+  // };
+  
+  // const Pie = ({ percentage, colour, rad }) => {
+  //   const pct = cleanPercentage(percentage);
+  //   return (
+  //     <svg width={200} height={200}>
+  //       <g transform={`rotate(-90 ${"100 100"})`}>
+  //         <Circle colour="lightgrey" radius={rad}/>
+  //         <Circle colour={colour} percentage={pct} radius={rad}/>
+  //       </g>
+  //       <Text percentage={pct} />
+  //     </svg>
+  //   );
+  // };
 
   return (
     <>
@@ -52,33 +108,33 @@ const Dashboard = () => {
           <h1>Welcome to SayF, {data.userInfo["first_name"]}</h1>
         </div>
         <div className="cards">
-          <div className="card">
+          <div className="card button-box">
             <div className="im">
               <img src={img} className="img" alt="image" />
             </div>
-            <h4>Dummy Data</h4>
-            <button>Yes</button>
+            <h4>SIP with SayF</h4>
+            {/* <button>Save Daily</button> */}
           </div>
-          <div className="card">
+          <div className="card button-box">
             <div className="im">
               <img src={img} className="img" alt="image" />
             </div>
-            <h4>Dummy Data</h4>
-            <button>Yes</button>
+            <h4>Link Your UPI</h4>
+            {/* <button>Activate</button> */}
           </div>
-          <div className="card">
+          <div className="card button-box">
             <div className="im">
               <img src={img} className="img" alt="image" />
             </div>
-            <h4>Dummy Data</h4>
-            <button>Yes</button>
+            <h4>Know Your Customer<br/>(KYC)</h4>
+            {/* <button>Start</button> */}
           </div>
-          <div className="card">
+          <div className="card button-box">
             <div className="im">
               <img src={img} className="img" alt="image" />
             </div>
-            <h4>Dummy Data</h4>
-            <button>Yes</button>
+            <h4>My Rewards</h4>
+            {/* <button>View Rewards</button> */}
           </div>
         </div>
         <div className="section-three">

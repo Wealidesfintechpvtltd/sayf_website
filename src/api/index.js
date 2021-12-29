@@ -23,4 +23,6 @@ export const verifyOtp = (body) => API.post("/otp/verify/", body);
 export const userData = () => API.get("/users/");
 export const userGoldData = () => API.get("/golds/gold-ownership/");
 
+export const userTransactions = () => API.get("/Transactions/all-transactions/");
+
 export const partnerStores = () => API.get("/partners/");

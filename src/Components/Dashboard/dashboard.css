@@ -93,6 +93,7 @@
 .dashboard .im {
     height: 50px;
     width: 50px;
+    margin: 5px;
     border-radius: 50%;
     background-color: #beb3f1;
     color: #000000;
@@ -136,6 +137,14 @@
 .dashboard .progress-content {
     display: flex;
     justify-content: space-between;
+}
+
+.dashboard h4 {
+    text-align: center;
+}
+
+.dashboard .button-box{
+    background-color: #d9ceff;
 }
 
 .gold-card {
