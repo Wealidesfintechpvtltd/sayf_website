@@ -558,6 +558,9 @@ margin: auto;
    font-size: 50px;
   }
 
+  .login-link{
+    display: none;
+  }
 
   .hero-left p {
     font-size: 20px;

@@ -12,6 +12,9 @@
     align-items: center;
 }
 
+.comp-name{
+  font-size: 18px;
+}
 .nav-right .login-link{
     margin-right: 50px;
     color: white;

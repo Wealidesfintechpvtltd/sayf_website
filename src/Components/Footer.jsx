@@ -6,8 +6,8 @@ const Footer = () => {
         <div>
             <div className="footer">
                 <div className="f1">
-                <img src={Logo_D} alt="logo"/>
-                    
+                <img src={Logo_D} alt="logo"/> <br />
+                    <b className='comp-name'>Wealides Fintech Private Limited</b>
                     <p>C/o Mahaveer Gandhi, <br/>
                     Station Back Road, <br/>
                     Bijapur, <br/>
