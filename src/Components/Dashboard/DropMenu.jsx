@@ -95,6 +95,7 @@ export default function AccountMenu({username, phone}) {
         <MenuItem
           onClick={()=>{
             logOut();
+            localStorage.clear();
             // 9928479084
             history.push("/");
           }}
