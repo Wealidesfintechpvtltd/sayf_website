@@ -196,7 +196,7 @@ const Dashboard = () => {
             </div>
             <div className="card">
               <p>
-                Earn rewards from 1200+ stores with Sayf Chrome Extension!{" "}
+                Earn rewards from 300+ stores with SayF Chrome Extension!{" "}
                 <br />
                 <img className="chrome" src={Chrome} alt="c" />{" "}
                 <span>Coming Soon... </span>
