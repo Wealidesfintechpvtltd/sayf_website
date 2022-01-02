@@ -1,11 +1,11 @@
 {
   "main.css": "/sayf_website/static/css/main.beceedee.chunk.css",
-  "main.js": "/sayf_website/static/js/main.552d6ad6.chunk.js",
-  "main.js.map": "/sayf_website/static/js/main.552d6ad6.chunk.js.map",
+  "main.js": "/sayf_website/static/js/main.f5b2f270.chunk.js",
+  "main.js.map": "/sayf_website/static/js/main.f5b2f270.chunk.js.map",
   "static/js/1.d3958861.chunk.js": "/sayf_website/static/js/1.d3958861.chunk.js",
   "static/js/1.d3958861.chunk.js.map": "/sayf_website/static/js/1.d3958861.chunk.js.map",
-  "static/js/2.e0730da8.chunk.js": "/sayf_website/static/js/2.e0730da8.chunk.js",
-  "static/js/2.e0730da8.chunk.js.map": "/sayf_website/static/js/2.e0730da8.chunk.js.map",
+  "static/js/2.4631ba80.chunk.js": "/sayf_website/static/js/2.4631ba80.chunk.js",
+  "static/js/2.4631ba80.chunk.js.map": "/sayf_website/static/js/2.4631ba80.chunk.js.map",
   "runtime~main.js": "/sayf_website/static/js/runtime~main.7a0069c3.js",
   "runtime~main.js.map": "/sayf_website/static/js/runtime~main.7a0069c3.js.map",
   "static/media/1.png": "/sayf_website/static/media/1.53ce77ad.png",
@@ -30,6 +30,6 @@
   "static/media/landing.mp4": "/sayf_website/static/media/landing.d38d9c3f.mp4",
   "static/css/main.beceedee.chunk.css.map": "/sayf_website/static/css/main.beceedee.chunk.css.map",
   "index.html": "/sayf_website/index.html",
-  "precache-manifest.d0991023e7f34deecef2522e907ad148.js": "/sayf_website/precache-manifest.d0991023e7f34deecef2522e907ad148.js",
+  "precache-manifest.dce58422a9b7e934f2254cb982c4a231.js": "/sayf_website/precache-manifest.dce58422a9b7e934f2254cb982c4a231.js",
   "service-worker.js": "/sayf_website/service-worker.js"
 }
