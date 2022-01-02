@@ -83,12 +83,7 @@ export default function AccountMenu({username, phone}) {
         </MenuItem>
         <p>{username}</p>
         <p>{phone}</p>
-        <button onClick={()=>{
-          logOut();
-          console.log("Logged Out");
-          // 9928479084
-          history.push("/");
-        }}>Logout</button>
+        
         </div>
         <Divider />
         <MenuItem>
@@ -97,7 +92,13 @@ export default function AccountMenu({username, phone}) {
           </ListItemIcon>
           Settings
         </MenuItem>
-        <MenuItem>
+        <MenuItem
+          onClick={()=>{
+            logOut();
+            // 9928479084
+            history.push("/");
+          }}
+        >
           <ListItemIcon>
             <Logout fontSize="small" />
           </ListItemIcon>
