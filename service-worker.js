@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/sayf_website/precache-manifest.5e3efb19b46e80afc320bf6a9344e9b3.js"
+  "/sayf_website/precache-manifest.b11213d1c833f3255818dcd2316e06e6.js"
 );
 
 workbox.clientsClaim();
