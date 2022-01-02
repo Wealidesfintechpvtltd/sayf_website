@@ -46,6 +46,7 @@ const Dashboard = () => {
 
     setData({ userInfo: info, partnerStores: stores, goldOwnership: gold, transactions: tranx });
     setLoaded(true);
+    console.log(info);
   }
 
   useEffect(() => {
@@ -106,7 +107,7 @@ const Dashboard = () => {
   return (
     loaded? 
     <>
-    <DashNav username = {data.userInfo["first_name"]}/>
+    <DashNav phone= {data.userInfo["phone"]} username = {data.userInfo["first_name"]}/>
     <div className="dashboard">
       <div className="hero-section">
         <h1>Welcome to SayF, {data.userInfo["first_name"]}</h1>

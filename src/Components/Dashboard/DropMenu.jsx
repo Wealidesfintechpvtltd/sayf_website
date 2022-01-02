@@ -7,11 +7,16 @@ import ListItemIcon from '@mui/material/ListItemIcon';
 import Divider from '@mui/material/Divider';
 import IconButton from '@mui/material/IconButton';
 
+import { useHistory } from "react-router-dom/cjs/react-router-dom.min";
+
 import Tooltip from '@mui/material/Tooltip';
 import Settings from '@mui/icons-material/Settings';
 import Logout from '@mui/icons-material/Logout';
 
-export default function AccountMenu({username}) {
+import { logOut } from "../../api/index";
+
+export default function AccountMenu({username, phone}) {
+  const history = useHistory();
   const [anchorEl, setAnchorEl] = React.useState(null);
   const open = Boolean(anchorEl);
   const handleClick = (event) => {
@@ -77,7 +82,13 @@ export default function AccountMenu({username}) {
           <Avatar />
         </MenuItem>
         <p>{username}</p>
-        <p>vijaykrishna@email.com</p>
+        <p>{phone}</p>
+        <button onClick={()=>{
+          logOut();
+          console.log("Logged Out");
+          // 9928479084
+          history.push("/");
+        }}>Logout</button>
         </div>
         <Divider />
         <MenuItem>

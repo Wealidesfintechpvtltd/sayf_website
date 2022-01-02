@@ -19,6 +19,7 @@ API.interceptors.request.use((req) => {
 
 export const sendOtp = (body) => API.post("/otp/send/", body);
 export const verifyOtp = (body) => API.post("/otp/verify/", body);
+export const logOut = () => API.post("/auth/logout/")
 
 export const userData = () => API.get("/users/");
 export const userGoldData = () => API.get("/golds/gold-ownership/");
