@@ -1,13 +1,5 @@
-
-import Logo_D from './assets/s_logo.png' 
-import Screen from './assets/screen.png' 
-import UD from './assets/underline.png' 
-import Activate from './assets/activate.png' 
-import Initiate from './assets/initiate.png' 
-import Adidas from './assets/adidas.png' 
-import Amazon from './assets/amazon.png'
 import Sayf from './assets/Svid.gif'
-import Mcd from './assets/mcd.png'
+
 import Paytm from './assets/paytm.png'
 import Icici from './assets/icici.png'
 import Augmont from './assets/Augmont.png'
@@ -22,7 +14,7 @@ import h from './assets/8.png'
 // import i from './assets/8.png'
 // import j from './assets/9.png'
 import k from './assets/10.png'
-import l from './assets/11.png'
+
 import m from './assets/12.png'
 import PartnerStore from './assets/stores.png'
 import AutoInvest from './assets/dailyinvestment.png'
