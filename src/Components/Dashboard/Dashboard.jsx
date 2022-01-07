@@ -128,7 +128,9 @@ const Dashboard = () => {
           <div className="im">
             <img src={img} className="img" alt="image" />
           </div>
-          <h4>Link Your UPI</h4>
+          <Link to={"./linkYourUPI"}>
+              <h4 >Link Your UPI</h4>
+            </Link>
           {/* <button>Activate</button> */}
         </div>
         <div className="card button-box">

@@ -15,6 +15,7 @@ import Login from './pages/Login'
 import Footer from './Components/Footer';
 import Dashboard from './Components/Dashboard/Dashboard'
 import Sip from './Components/sipWithSayf/Sip'
+import LinkYourUPI from './Components/linkYourUPI/linkYourUPI'
 
 ReactDOM.render(
   <React.StrictMode>
@@ -26,6 +27,8 @@ ReactDOM.render(
         <Route exact path="/login"><Login /></Route>
         <Route exact path="/dashboard"><Dashboard /></Route>
         <Route exact path="/sip"><Sip /></Route> 
+        <Route exact path="/linkYourUPI"><LinkYourUPI /></Route> 
+
       </Switch>
       <Footer></Footer>
     </Router>
