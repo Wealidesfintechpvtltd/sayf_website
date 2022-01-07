@@ -137,8 +137,10 @@ const Dashboard = () => {
           <div className="im">
             <img src={img} className="img" alt="image" />
           </div>
-          <h4>Know Your Customer<br/>(KYC)</h4>
-          {/* <button>Start</button> */}
+          <Link to={"./knowYourCustomer"}>
+              <h4 >Know Your Customer (KYC)</h4>
+            </Link>          
+            {/* <button>Start</button> */}
         </div>
         <div className="card button-box">
           <div className="im">

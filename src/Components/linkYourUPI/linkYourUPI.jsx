@@ -3,7 +3,7 @@ import React from 'react'
 const LinkYourUPI = () => {
     return (
         <div>
-            Hello Rachit
+            Hello Rachit! Link you UPI
         </div>
     )
 }
