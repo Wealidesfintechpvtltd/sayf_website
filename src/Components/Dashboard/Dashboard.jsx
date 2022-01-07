@@ -2,6 +2,7 @@ import React from "react";
 import { useState, useEffect } from "react";
 import "./dashboard.css";
 import DashNav from "./DashNav";
+import { Link } from 'react-router-dom'
 
 
 import Carousel from "react-elastic-carousel";
@@ -118,7 +119,9 @@ const Dashboard = () => {
           <div className="im">
             <img src={img} className="img" alt="image" />
           </div>
-          <h4>SIP with SayF</h4>
+            <Link to={"./sipWithSayf"}>
+              <h4 >SIP with SayF</h4>
+            </Link>
           {/* <button>Save Daily</button> */}
         </div>
         <div className="card button-box">
