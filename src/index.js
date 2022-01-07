@@ -14,6 +14,7 @@ import Privacy from './privacy';
 import Login from './pages/Login'
 import Footer from './Components/Footer';
 import Dashboard from './Components/Dashboard/Dashboard'
+import Sip from './Components/sipWithSayf/Sip'
 
 ReactDOM.render(
   <React.StrictMode>
@@ -24,6 +25,7 @@ ReactDOM.render(
         <Route exact path="/privacy"><Privacy /></Route>
         <Route exact path="/login"><Login /></Route>
         <Route exact path="/dashboard"><Dashboard /></Route>
+        <Route exact path="/sip"><Sip /></Route> 
       </Switch>
       <Footer></Footer>
     </Router>
