@@ -146,7 +146,9 @@ const Dashboard = () => {
           <div className="im">
             <img src={img} className="img" alt="image" />
           </div>
-          <h4>My Rewards</h4>
+          <Link to={"./myRewards"}>
+              <h4 >My Rewards</h4>
+            </Link> 
           {/* <button>View Rewards</button> */}
         </div>
       </div>

@@ -17,6 +17,7 @@ import Dashboard from './Components/Dashboard/Dashboard'
 import Sip from './Components/sipWithSayf/Sip'
 import LinkYourUPI from './Components/linkYourUPI/linkYourUPI'
 import KYC from './Components/knowYourCustomer/knowYourCustomer'
+import mRewards from './Components/myRewards/myRewards'
 
 
 ReactDOM.render(
@@ -30,7 +31,10 @@ ReactDOM.render(
         <Route exact path="/dashboard"><Dashboard /></Route>
         <Route exact path="/sipWithSayf"><Sip /></Route> 
         <Route exact path="/linkYourUPI"><LinkYourUPI /></Route> 
-        <Route exact path="/knowYourCustomer"><KYC /></Route> 
+        <Route exact path="/knowYourCustomer"><KYC /></Route>
+        <Route exact path="/myRewards"><mRewards /></Route>
+
+
 
 
       </Switch>
