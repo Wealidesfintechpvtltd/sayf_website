@@ -1,0 +1,66 @@
+.kyc form{
+    width: 50vw;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+.kyc .heading{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.kyc legend{
+    background-color: #0051ff;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+}
+
+.kyc fieldset{
+    border: 1px solid white;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: aliceblue;
+    color: black;
+}
+
+.kyc form p{
+    margin: 10px 0px;
+}
+
+.kyc #gender {
+	padding: 10px;
+}
+
+.kyc input, select, form button{
+    margin: 0px 20px 20px 0px;
+    width: 200px;
+}
+
+.kyc #long{
+    width: 100%;
+}
+
+.kyc .submit{
+    text-align: center;
+}
+
+.kyc form button{
+    padding: 10px;
+    background-color: #0051ff;
+    color: white;
+    border: none;
+    border-radius:  10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.1s ease-in;
+  }
+
+  .kyc form button:hover{
+      transform: scale(1.10);
+  }
+
+  

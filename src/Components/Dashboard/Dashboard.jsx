@@ -2,7 +2,6 @@ import React from "react";
 import { useState, useEffect } from "react";
 import "./dashboard.css";
 import DashNav from "./DashNav";
-import { Link } from 'react-router-dom'
 
 
 import Carousel from "react-elastic-carousel";
@@ -10,7 +9,7 @@ import CarouselItem from "./CarouselItem";
 import ProgressBar from "./ProgressBar";
 
 // import { useParams } from "react-router-dom/cjs/react-router-dom.min";
-
+import kyc from "./dashboard_assets/kyc.svg";
 import img from "./dashboard_assets/7.png";
 import Chrome from "./dashboard_assets/chrome.png";
 
@@ -119,36 +118,30 @@ const Dashboard = () => {
           <div className="im">
             <img src={img} className="img" alt="image" />
           </div>
-            <Link to={"./sipWithSayf"}>
-              <h4 >SIP with SayF</h4>
-            </Link>
+          <h4>SIP with SayF</h4>
           {/* <button>Save Daily</button> */}
         </div>
         <div className="card button-box">
           <div className="im">
             <img src={img} className="img" alt="image" />
           </div>
-          <Link to={"./linkYourUPI"}>
-              <h4 >Link Your UPI</h4>
-            </Link>
+          <h4>Link Your UPI</h4>
           {/* <button>Activate</button> */}
         </div>
         <div className="card button-box">
           <div className="im">
-            <img src={img} className="img" alt="image" />
+            <img src={kyc} className="img" alt="image" />
           </div>
-          <Link to={"./knowYourCustomer"}>
-              <h4 >Know Your Customer (KYC)</h4>
-            </Link>          
-            {/* <button>Start</button> */}
+          <a href="#/knowYourCustomer">
+          <h4>Know Your Customer<br/>(KYC)</h4>
+          </a>
+          {/* <button>Start</button> */}
         </div>
         <div className="card button-box">
           <div className="im">
             <img src={img} className="img" alt="image" />
           </div>
-          <Link to={"./myRewards"}>
-              <h4 >My Rewards</h4>
-            </Link> 
+          <h4>My Rewards</h4>
           {/* <button>View Rewards</button> */}
         </div>
       </div>
