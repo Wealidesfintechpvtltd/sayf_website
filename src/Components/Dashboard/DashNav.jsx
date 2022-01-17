@@ -12,7 +12,7 @@ import GridBtn from './GridBtn'
 const DashNav = ({username , phone}) => {
     return (
         <div className='dash-nav'>
-              <img src={Logo} alt="logo" height="40px" width="75px"/>
+                <a href="#/dashboard"><img src={Logo} alt="logo" height="40px" width="75px"/></a>
                 <div className="right">
                 <GridBtn></GridBtn>
                 <DropMenu phone={phone} username = {username}></DropMenu>
