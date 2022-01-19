@@ -10,7 +10,7 @@ const Footer = () => {
                     <b className='comp-name'>Wealides Fintech Private Limited</b>
                     <p>C/o Mahaveer Gandhi, <br/>
                     Station Back Road, <br/>
-                    Bijapur, <br/>
+                    Bijapur CSD, Bijapur<br/>
                     Karnataka - 586101</p>
                 </div>
                 <div className="f2">
