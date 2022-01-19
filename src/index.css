@@ -336,6 +336,21 @@ li {
   margin-top: 60px;
 }
 
+.calculator .checkboxes{
+  display: flex;
+  flex-direction: column;
+}
+
+.calculator .checkboxes .check{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.calculator .checkboxes .check input{
+  margin: 0px;
+}
+
 .fourth-section h1{
   text-align: center;
   color: #000000;

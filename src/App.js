@@ -1,79 +1,78 @@
-import Sayf from './assets/Svid.gif'
+import Sayf from "./assets/Svid.gif";
 
-import Paytm from './assets/paytm.png'
-import Icici from './assets/icici.png'
-import Augmont from './assets/Augmont.png'
-import a from './assets/1.png'
-import b from './assets/2.png'
+import Paytm from "./assets/paytm.png";
+import Icici from "./assets/icici.png";
+import Augmont from "./assets/Augmont.png";
+import a from "./assets/1.png";
+import b from "./assets/2.png";
 // import c from './assets/3.png'
-import d from './assets/4.png'
-import e from './assets/5.png'
-import f from './assets/6.png'
-import g from './assets/7.png'
-import h from './assets/8.png'
+import d from "./assets/4.png";
+import e from "./assets/5.png";
+import f from "./assets/6.png";
+import g from "./assets/7.png";
+import h from "./assets/8.png";
 // import i from './assets/8.png'
 // import j from './assets/9.png'
-import k from './assets/10.png'
+import k from "./assets/10.png";
 
-import m from './assets/12.png'
-import PartnerStore from './assets/stores.png'
-import AutoInvest from './assets/dailyinvestment.png'
-import Roundups from './assets/roundups.png'
-import Lenovo from './assets/lenovo.png' 
-import Forget from './assets/forget.gif' 
-import Sayf_News from './assets/sayf_news.svg';
-import Video from './assets/landing.mp4'
-import React, {useState} from 'react'
+import m from "./assets/12.png";
+import PartnerStore from "./assets/stores.png";
+import AutoInvest from "./assets/dailyinvestment.png";
+import Roundups from "./assets/roundups.png";
+import Lenovo from "./assets/lenovo.png";
+import Forget from "./assets/forget.gif";
+import Sayf_News from "./assets/sayf_news.svg";
+import Video from "./assets/landing.mp4";
+import React, { useState } from "react";
 
-import Navbar from './Components/Navbar'
-
+import Navbar from "./Components/Navbar";
 
 function App() {
-  const [avgMS, setMS] = useState(6000)
-  const [dS, setdS] = useState(20)
-  const [l, setl] = useState(7)
+  const [avgMS, setMS] = useState(6000);
+  const [dS, setdS] = useState(20);
+  const [l, setl] = useState(7);
   const [rad1, setRad1] = useState(true);
   const [rad2, setRad2] = useState(true);
   const [checked1, setchecked1] = useState(true);
   const [checked2, setchecked2] = useState(true);
   var y;
 
-  function handleChange1(val){
-    setMS(val.target.value)
+  function handleChange1(val) {
+    setMS(val.target.value);
   }
-  function handleChange2(val){
-    setdS(val.target.value)
+  function handleChange2(val) {
+    setdS(val.target.value);
   }
   function handleChange3(val) {
-    setl(val.target.value)
+    setl(val.target.value);
   }
 
   const data5 =
-  rad2 * ((avgMS / 25) * (Math.pow(1.0075, 12 * l) - 1) * 1.0075) / (9 / 1200) + 
-  (dS * (Math.pow(1.00025, 365 * l) - 1)) / 0.00025 + 
-  rad1 * (600 * (Math.pow(1.0075, 12 * l) - 1) * 1.0075) / (9 / 1200) 
+    (rad2 * ((avgMS / 25) * (Math.pow(1.0075, 12 * l) - 1) * 1.0075)) /
+      (9 / 1200) +
+    (dS * (Math.pow(1.00025, 365 * l) - 1)) / 0.00025 +
+    (rad1 * (600 * (Math.pow(1.0075, 12 * l) - 1) * 1.0075)) / (9 / 1200);
   // : (dS * (Math.pow(1.00025, 365 * l) - 1)) / 0.00025;
 
+  const data6 =
+    ((avgMS / 25) * (Math.pow(1.0075, 12 * l) - 1) * 1.0075) / (9 / 1200);
+  const data7 = (600 * (Math.pow(1.0075, 12 * l) - 1) * 1.0075) / (9 / 1200);
 
-  const data6 = ((avgMS / 25) * (Math.pow(1.0075, 12 * l) - 1) * 1.0075) / (9 / 1200)
-  const data7 = (600 * (Math.pow(1.0075, 12 * l) - 1) * 1.0075) / (9 / 1200)
-
-  
   var faq = document.getElementsByClassName("faq-page");
   var i;
   for (i = 0; i < faq.length; i++) {
-      faq[i].addEventListener("click", function () {
-          this.classList.toggle("active");
-          var body = this.nextElementSibling;
-          if (body.style.display === "block") {
-              body.style.display = "none";
-          } else {
-              body.style.display = "block";
-          }
-      });
+    faq[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var body = this.nextElementSibling;
+      if (body.style.display === "block") {
+        body.style.display = "none";
+      } else {
+        body.style.display = "block";
+      }
+    });
   }
 
-  const data4 = data5.toFixed(2)
+  const data4 = data5.toFixed(2);
 
   return (
     // <ScriptTag isHydrating={true} type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" />
@@ -89,9 +88,9 @@ function App() {
               counts. Invest it.
             </h1>
             <p>
-              A personal finance app that helps you save,<br /> invest and optimize your spending for a better future.
+              A personal finance app that helps you save,
+              <br /> invest and optimize your spending for a better future.
             </p>
-
           </div>
           <div className="hero-right">
             <img src={Sayf} />
@@ -128,31 +127,94 @@ function App() {
           </div>
         </div>
         <div className="third-section">
-          <h1>Build your FUTURE with SayF <br /> Try it for Yourself!</h1>
+          <h1>
+            Build your FUTURE with SayF <br /> Try it for Yourself!
+          </h1>
           <div className="cards">
             <div className="card">
-
               <div className="card-content-left">
                 <img src={PartnerStore} width="20%" height="auto" />
                 <h3>Partner store</h3>
-                <p>Earn upto 25% worth of <br />gold while spending at our<br />300+ partner stores.</p>
+                <p>
+                  Earn upto 25% worth of <br />
+                  gold while spending at our
+                  <br />
+                  300+ partner stores.
+                </p>
               </div>
             </div>
             <div className="card">
               <div className="calculator">
                 <span className="one">Average Monthly Spending</span>
-                <span className="two"><b>₹{avgMS}</b></span>
-                <input className="range" type="range" min='4000' max='100000' step="2000" defaultValue={6000} onChange={handleChange1} />
+                <span className="two">
+                  <b>₹{avgMS}</b>
+                </span>
+                <input
+                  className="range"
+                  type="range"
+                  min="4000"
+                  max="100000"
+                  step="2000"
+                  defaultValue={6000}
+                  onChange={handleChange1}
+                />
                 <span className="one">Daily Savings</span>
-                <span className="two"><b>₹{dS}</b></span>
-                <input className="range" type="range" min='10' max='500' step="10" onChange={handleChange2} />
+                <span className="two">
+                  <b>₹{dS}</b>
+                </span>
+                <input
+                  className="range"
+                  type="range"
+                  min="10"
+                  max="500"
+                  step="10"
+                  onChange={handleChange2}
+                />
                 <span className="one">Time Period</span>
-                <span className="two"><b>{l} {l == 1 ? y = "year" : y = "years"}</b></span>
-                <input className="range" type="range" min='1' max='30' defaultValue={7} onChange={handleChange3} />
-                <span className="one1">Roundup your spare change</span>
-                <span className="two"><input checked={checked1} type="checkbox" onChange={(e) => { setRad1(e.target.checked); setchecked1(!checked1) }} /></span>
-                <span className="one1"><br />Partner store savings</span>
-                <span className="two"><input checked={checked2} type="checkbox" onChange={(e) => { setRad2(e.target.checked); setchecked2(!checked2) }} /></span>
+                <span className="two">
+                  <b>
+                    {l} {l == 1 ? (y = "year") : (y = "years")}
+                  </b>
+                </span>
+                <input
+                  className="range"
+                  type="range"
+                  min="1"
+                  max="30"
+                  defaultValue={7}
+                  onChange={handleChange3}
+                />
+                <div className="checkboxes">
+                 <div className="check">
+                 <p>Roundup your spare change</p>
+                  
+                  <input
+                    checked={checked1}
+                    type="checkbox"
+                    onChange={(e) => {
+                      setRad1(e.target.checked);
+                      setchecked1(!checked1);
+                    }}
+                  />
+                 </div>
+               
+          
+                   
+                  <div className="check">
+                  <p>Partner store savings</p>
+                 
+                 
+                 <input
+                   checked={checked2}
+                   type="checkbox"
+                   onChange={(e) => {
+                     setRad2(e.target.checked);
+                     setchecked2(!checked2);
+                   }}
+                 />
+                  </div>
+                
+                </div>
                 <div className="calculator-bottom">
                   <p>Your total value</p>
                   <h2>₹ {data4}</h2>
@@ -163,21 +225,29 @@ function App() {
               <div className="card-content">
                 <img src={AutoInvest} width="16%" height="auto" />
                 <h3>Auto-Invest</h3>
-                <p>Take investing off your to do list. <br /> Schedule how much and how often <br />you want to save.</p>
+                <p>
+                  Take investing off your to do list. <br /> Schedule how much
+                  and how often <br />
+                  you want to save.
+                </p>
               </div>
               <div className="card-content">
                 <img src={Roundups} width="16%" height="auto" />
                 <h3>Roundups</h3>
-                <p>We round-up your <br />everyday spendings to the next <br />tens and automatically invest.</p>
+                <p>
+                  We round-up your <br />
+                  everyday spendings to the next <br />
+                  tens and automatically invest.
+                </p>
               </div>
             </div>
           </div>
         </div>
 
-
         <div className="fourth-section">
           <div className="tp-heading">
-            <h4>Our trusted Partners and Affilations</h4><br />
+            <h4>Our trusted Partners and Affilations</h4>
+            <br />
           </div>
           <div className="trusted-partners">
             <div className="tp-photos" padding-top="10px">
@@ -216,15 +286,20 @@ function App() {
             </div>
         </div> */}
 
-        < div className="fifth-section">
+        <div className="fifth-section">
           <div className="left">
             <h1>Never miss an update</h1>
-            <p>Sign up for our monthly financial advice <br />newsletter and exclusive updates. We never <br />share your email with third parties.</p>
+            <p>
+              Sign up for our monthly financial advice <br />
+              newsletter and exclusive updates. We never <br />
+              share your email with third parties.
+            </p>
             <div className="text-field">
               {/* <input type="text" /> */}
-              <a href="https://tally.so/r/w27Abn"><button className="btn-subscribe">Subscribe</button></a>
+              <a href="https://tally.so/r/w27Abn">
+                <button className="btn-subscribe">Subscribe</button>
+              </a>
             </div>
-
           </div>
           <div className="right">
             <img src={Sayf_News} alt="" />
