@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "fa799dee79d1136c4f64",
-    "url": "/sayf_website/static/css/main.1d4b7497.chunk.css"
+    "revision": "de8d3f4ef2088c92ad2d",
+    "url": "/sayf_website/static/css/main.09076957.chunk.css"
   },
   {
-    "revision": "fa799dee79d1136c4f64",
-    "url": "/sayf_website/static/js/main.fa799dee.chunk.js"
+    "revision": "de8d3f4ef2088c92ad2d",
+    "url": "/sayf_website/static/js/main.de8d3f4e.chunk.js"
   },
   {
     "revision": "8c5e38c02b1f873a2ae7",
@@ -104,7 +104,7 @@ self.__precacheManifest = [
     "url": "/sayf_website/static/media/chrome.615e4f5e.png"
   },
   {
-    "revision": "0345bc4dd8f4c0327166c54f0e4f70d5",
+    "revision": "a55c6c3cfc6017452d5dcb6d1cea6b26",
     "url": "/sayf_website/index.html"
   }
 ];
