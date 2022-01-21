@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@300;400&family=Roboto:wght@400;700&display=swap');
+.blogNavbar{
+    padding: 0 80px;
+    margin-bottom: 0px;
+}
+
+.search{
+    float: right;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    border: 2px solid #000000;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
+.search input {
+    border: none;
+    margin-top: 0px;
+    margin-right: 20px;
+}
+
+.search input:focus{
+    outline: none !important;
+}
+
+.search img{
+    width: 30px;
+    cursor: pointer;
+    transition: 0.1s ease-in;
+}
+
+.search img:hover{
+    transform: scale(1.10);
+}
+
+.author {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.author img {
+    width: 300px;
+    height: 300px;
+}
+
+.author .left, .author .right {
+    flex: 1;
+}
+
+.blog{
+    margin-top: -40px;
+    line-height: 1.8;
+}
+
+.blog h1, .blog p, .blog h2{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.blog h1, .blog p, .blog h2, .blog h3{
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+
+.author h1{
+    text-align:start;
+}
+
+
+.stats{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid gainsboro;
+}
+
+.stats .links {
+    height: 20px;
+}
+
+.stats .links img {
+    height: 100%;
+    margin-right: 5px;
+    cursor: pointer;
+    transition: 0.1s ease-in;
+}
+
+.stats .links img:hover {
+    transform: scale(1.10);
+}
+
+.blog h1{
+    text-decoration: underline;
+}
+
+.blog{
+    background-color:  #fdfcfa;
+    color: #000000;
+    padding: 0 400px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}

@@ -18,6 +18,8 @@ import Sip from './Components/sipWithSayf/Sip'
 import LinkYourUPI from './Components/linkYourUPI/linkYourUPI'
 import KYC from './Components/knowYourCustomer/knowYourCustomer'
 import mRewards from './Components/myRewards/myRewards'
+import Blogs from './Components/Blogs/Blogs';
+import Blog from './Components/Blogs/Blog';
 
 
 ReactDOM.render(
@@ -33,10 +35,8 @@ ReactDOM.render(
         <Route exact path="/linkYourUPI"><LinkYourUPI /></Route> 
         <Route exact path="/knowYourCustomer"><KYC /></Route>
         <Route exact path="/myRewards"><mRewards /></Route>
-
-
-
-
+        <Route exact path="/blogs"><Blogs /></Route>
+        <Route exact path="/blogs/digital-gold-guide"><Blog/></Route>
       </Switch>
       <Footer></Footer>
     </Router>

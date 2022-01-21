@@ -9971,6 +9971,11 @@
     "micromatch" "^3.1.10"
     "readable-stream" "^2.0.2"
 
+"reading-time@^1.5.0":
+  "integrity" "sha512-onYyVhBNr4CmAxFsKS7bz+uTLRakypIe4R+5A824vBSkQy/hB3fZepoVEf8OVAxzLvK+H/jm9TzpI3ETSm64Kg=="
+  "resolved" "https://registry.npmjs.org/reading-time/-/reading-time-1.5.0.tgz"
+  "version" "1.5.0"
+
 "realpath-native@^1.0.0":
   "integrity" "sha512-wlgPA6cCIIg9gKz0fgAPjnzh4yR/LnXovwuo9hvyGvx3h8nX4+/iLZplfUWasXpqD8BdnGnP5njOFjkUwPzvjA=="
   "resolved" "https://registry.npmjs.org/realpath-native/-/realpath-native-1.1.0.tgz"

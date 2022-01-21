@@ -1,5 +1,5 @@
 {
-  "homepage": "https://wealidesfintechpvtltd.github.io/sayf_website/",
+  "homepage": "https://sayf.club/",
   "name": "SayF",
   "version": "0.1.0",
   "private": true,
@@ -28,6 +28,7 @@
     "react-elastic-carousel": "^0.11.5",
     "react-router-dom": "^5.2.0",
     "react-script-tag": "^1.1.2",
+    "reading-time": "^1.5.0",
     "styled-components": "^5.3.3",
     "web-vitals": "^1.0.1"
   },
