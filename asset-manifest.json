@@ -1,11 +1,11 @@
 {
-  "main.css": "/static/css/main.d5a989d4.chunk.css",
-  "main.js": "/static/js/main.1b96d877.chunk.js",
-  "main.js.map": "/static/js/main.1b96d877.chunk.js.map",
+  "main.css": "/static/css/main.b0a46468.chunk.css",
+  "main.js": "/static/js/main.6f0bed04.chunk.js",
+  "main.js.map": "/static/js/main.6f0bed04.chunk.js.map",
   "static/js/1.ac093604.chunk.js": "/static/js/1.ac093604.chunk.js",
   "static/js/1.ac093604.chunk.js.map": "/static/js/1.ac093604.chunk.js.map",
-  "static/js/2.450441cc.chunk.js": "/static/js/2.450441cc.chunk.js",
-  "static/js/2.450441cc.chunk.js.map": "/static/js/2.450441cc.chunk.js.map",
+  "static/js/2.dae96cc7.chunk.js": "/static/js/2.dae96cc7.chunk.js",
+  "static/js/2.dae96cc7.chunk.js.map": "/static/js/2.dae96cc7.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.4357ec32.js",
   "runtime~main.js.map": "/static/js/runtime~main.4357ec32.js.map",
   "static/media/7.png": "/static/media/7.d59c9acd.png",
@@ -30,8 +30,8 @@
   "static/media/kyc.svg": "/static/media/kyc.d2960d63.svg",
   "static/media/chrome.png": "/static/media/chrome.615e4f5e.png",
   "static/media/blog1img.png": "/static/media/blog1img.26d3389b.png",
-  "static/css/main.d5a989d4.chunk.css.map": "/static/css/main.d5a989d4.chunk.css.map",
+  "static/css/main.b0a46468.chunk.css.map": "/static/css/main.b0a46468.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.214f2d06922fc134e665ce411750c846.js": "/precache-manifest.214f2d06922fc134e665ce411750c846.js",
+  "precache-manifest.3fcf1795a37a4b69f32cba759e6418a8.js": "/precache-manifest.3fcf1795a37a4b69f32cba759e6418a8.js",
   "service-worker.js": "/service-worker.js"
 }
