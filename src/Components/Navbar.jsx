@@ -36,7 +36,7 @@ const Navbar = () => {
         <div className='navbar'>
                 <img src={Logo} alt="logo" height="40px" width="75px"/>
                 <div className="nav-right">
-                    <a href="#/blogs">Blogs</a>
+                    <a href="#/blogs" className='login-link'>Blogs</a>
                     <a href="#/login" className='login-link'>Login</a>
                     <div className="btn-download">
                     <span><img src={Gplay} alt="g" /></span>

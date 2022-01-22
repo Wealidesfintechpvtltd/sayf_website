@@ -103,3 +103,28 @@
     padding-top: 50px;
     padding-bottom: 100px;
 }
+
+@media screen and (max-width: 800px) {
+    .blog{
+        margin: 0px;
+        margin-top: -50px;
+        padding: 50px 50px;
+    }
+
+    .search{
+        display: none;
+    }
+    .author {
+        flex-direction: column;
+    }
+    
+    .author img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .author .left, .author .right {
+        flex: 1;
+    }
+
+}

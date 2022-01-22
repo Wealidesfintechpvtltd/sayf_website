@@ -4,6 +4,10 @@
     padding: 0px 80px;
 }
 
+.blogs{
+    margin-top: -50px;
+}
+
 .blogs h1, .blogs p, .blogs h2{
     font-family: 'Open Sans', sans-serif;
 }
@@ -42,4 +46,31 @@
 .blogs .blogsTiles .tiles .heading h2{
     margin-bottom: 20px;
 
+}
+
+.blogs img{
+    height: 100%;
+    width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+    .blogs h1{
+        margin-bottom: 20px;
+    }
+
+    .blogs{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: -30px;
+    }
+    .blogsTiles {
+        flex-direction: column;
+    }
+    .blogs .blogsTiles .tiles{
+        width: 100%;
+        height: 100%;
+        padding: 20px;
+    }
 }

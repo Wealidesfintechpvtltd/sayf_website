@@ -2,7 +2,7 @@ import React from "react";
 import "./blogs.css";
 import Navbar from "../Navbar";
 import { useHistory } from "react-router-dom";
-
+import img from '../../assets/blog1img.png'
 
 const Blogs = () => {
 
@@ -21,6 +21,7 @@ const Blogs = () => {
             }} className="tiles">
     
               <div className="heading">
+                <img src={img} alt="" />
                 <h2>Digital Gold: A Simple and Complete Guide</h2>
               </div>
               <div className="summary">
