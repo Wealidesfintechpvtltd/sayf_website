@@ -54,6 +54,12 @@
 }
 
 @media screen and (max-width: 800px) {
+
+    .blogsContainer{
+        padding: 0px 30px;
+    }
+    
+
     .blogs h1{
         margin-bottom: 20px;
     }

@@ -105,10 +105,17 @@
 }
 
 @media screen and (max-width: 800px) {
+
+    .blogNavbar{
+        padding: 0 30px;
+        margin-bottom: 0px;
+    }
+
     .blog{
         margin: 0px;
         margin-top: -50px;
         padding: 50px 50px;
+        margin-bottom: -50px;
     }
 
     .search{
