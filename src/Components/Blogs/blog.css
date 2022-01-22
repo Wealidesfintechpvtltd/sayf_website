@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@300;400&family=Roboto:wght@400;700&display=swap');
 .blogNavbar{
-    padding: 0 80px;
+    padding: 0px 80px;
     margin-bottom: 0px;
+    position: sticky;
+    top: 0;
+    background-color: #12104A;
+    height: 120px;
+    margin-bottom: 50px;
 }
 
 .search{
