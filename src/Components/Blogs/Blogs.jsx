@@ -3,6 +3,7 @@ import "./blogs.css";
 import Navbar from "../Navbar";
 import { useHistory } from "react-router-dom";
 import img from '../../assets/blog1img.png'
+import img2 from '../../assets/Blogimg2.png'
 
 const Blogs = () => {
 
@@ -21,13 +22,35 @@ const Blogs = () => {
             }} className="tiles">
     
               <div className="heading">
+                <div className="image">
                 <img src={img} alt="" />
+                </div>
                 <h2>Digital Gold: A Simple and Complete Guide</h2>
               </div>
               <div className="summary">
                 <p>
                 Digital gold is an online and digital method to invest in gold without
           owning it in physical form.......
+                </p>
+              </div>
+            </div>
+            </a>
+          </div>
+          <div className="row">
+            <a href="#/blogs/digital-gold">
+            <div onClick={()=>{
+                // history.push()
+            }} className="tiles">
+    
+              <div className="heading">
+                <div className="image">
+                <img src={img2} alt="" />
+                </div>
+                <h2>Digital Gold a New Way of Buying Gold</h2>
+              </div>
+              <div className="summary">
+                <p>
+                The history of gold in India is quite old, and we see it as more than an investment.......
                 </p>
               </div>
             </div>

@@ -8,6 +8,11 @@
     margin-top: -50px;
 }
 
+.image{
+    height: 200px;
+    padding: 10px;
+}
+
 .blogs h1, .blogs p, .blogs h2{
     font-family: 'Open Sans', sans-serif;
 }
