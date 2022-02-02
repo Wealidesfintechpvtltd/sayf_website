@@ -21,6 +21,8 @@ import mRewards from './Components/myRewards/myRewards'
 import Blogs from './Components/Blogs/Blogs';
 import Blog from './Components/Blogs/Blog';
 import Blog2 from './Components/Blogs/Blog2'
+import Blog3 from './Components/Blogs/Blog3'
+
 
 
 ReactDOM.render(
@@ -39,6 +41,8 @@ ReactDOM.render(
         <Route exact path="/blogs"><Blogs /></Route>
         <Route exact path="/blogs/digital-gold-guide"><Blog/></Route>
         <Route exact path="/blogs/digital-gold"><Blog2/></Route>
+        <Route exact path="/blogs/7-surprising-facts"><Blog3/></Route>
+
       </Switch>
       <Footer></Footer>
     </Router>
