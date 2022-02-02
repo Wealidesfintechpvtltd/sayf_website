@@ -32,7 +32,7 @@ const Blog2 = () => {
           </p>
           <p className="blogDetails">
             By the team at SayF <br />
-            28th January 2021
+            January 28th, 2022
           </p>
         </div>
       </div>

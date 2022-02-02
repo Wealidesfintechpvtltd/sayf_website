@@ -22,6 +22,8 @@ import Blogs from './Components/Blogs/Blogs';
 import Blog from './Components/Blogs/Blog';
 import Blog2 from './Components/Blogs/Blog2'
 import Blog3 from './Components/Blogs/Blog3'
+import Blog4 from './Components/Blogs/Blog4'
+
 
 
 
@@ -42,6 +44,8 @@ ReactDOM.render(
         <Route exact path="/blogs/digital-gold-guide"><Blog/></Route>
         <Route exact path="/blogs/digital-gold"><Blog2/></Route>
         <Route exact path="/blogs/7-surprising-facts"><Blog3/></Route>
+        <Route exact path="/blogs/why-are-investors-so-obsessed-With-digital-gold"><Blog4/></Route>
+
 
       </Switch>
       <Footer></Footer>

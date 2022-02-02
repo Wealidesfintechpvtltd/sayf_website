@@ -5,6 +5,8 @@ import { useHistory } from "react-router-dom";
 import img from '../../assets/blog1img.png'
 import img2 from '../../assets/Blogimg2.png'
 import img3 from '../../assets/sevenFacts.PNG'
+import img4 from '../../assets/goldInvestor.PNG'
+
 const Blogs = () => {
 
     const history = useHistory();
@@ -36,6 +38,7 @@ const Blogs = () => {
             </div>
             </a>
           </div>
+          
           <div className="row">
             <a href="#/blogs/digital-gold">
             <div onClick={()=>{
@@ -56,6 +59,7 @@ const Blogs = () => {
             </div>
             </a>
           </div>
+
           <div className="row">
             <a href="#/blogs/7-surprising-facts">
             <div onClick={()=>{
@@ -76,6 +80,28 @@ const Blogs = () => {
             </div>
             </a>
           </div>
+
+          <div className="row">
+            <a href="#/blogs/why-are-investors-so-obsessed-With-digital-gold">
+            <div onClick={()=>{
+                // history.push()
+            }} className="tiles">
+    
+              <div className="heading">
+                <div className="image">
+                <img src={img4} alt="" />
+                </div>
+                <h2>Why Are Investors So Obsessed With Digital Gold?</h2>
+              </div>
+              <div className="summary">
+                <p>
+                  Gold has been used as a trading asset for a long time....
+                </p>
+              </div>
+            </div>
+            </a>
+          </div>
+
         </div>
       </div>
     </div>
