@@ -6,6 +6,7 @@ import img from '../../assets/blog1img.png'
 import img2 from '../../assets/Blogimg2.png'
 import img3 from '../../assets/sevenFacts.PNG'
 import img4 from '../../assets/goldInvestor.PNG'
+import img5 from '../../assets/investInGold.PNG'
 
 const Blogs = () => {
 
@@ -96,6 +97,27 @@ const Blogs = () => {
               <div className="summary">
                 <p>
                   Gold has been used as a trading asset for a long time....
+                </p>
+              </div>
+            </div>
+            </a>
+          </div>
+
+          <div className="row">
+            <a href="#/blogs/time-to-invest-in-digital-gold-with-sayf">
+            <div onClick={()=>{
+                // history.push()
+            }} className="tiles">
+    
+              <div className="heading">
+                <div className="image">
+                <img src={img5} alt="" />
+                </div>
+                <h2>Time to Invest in Digital Gold with SayF</h2>
+              </div>
+              <div className="summary">
+                <p>
+                  In the current technical advanced era, the concept of digital gold is gaining a lot of recognition because of the benefits while investing in digital gold. However....  
                 </p>
               </div>
             </div>
