@@ -7,6 +7,9 @@ import img2 from '../../assets/Blogimg2.png'
 import img3 from '../../assets/sevenFacts.PNG'
 import img4 from '../../assets/goldInvestor.PNG'
 import img5 from '../../assets/investInGold.PNG'
+import img6 from '../../assets/Investment.jpg'
+import img7 from '../../assets/Calculator.jpg'
+import img8 from '../../assets/Blog8.jpg'
 
 const Blogs = () => {
 
@@ -118,6 +121,72 @@ const Blogs = () => {
               <div className="summary">
                 <p>
                   In the current technical advanced era, the concept of digital gold is gaining a lot of recognition because of the benefits while investing in digital gold. However....  
+                </p>
+              </div>
+            </div>
+            </a>
+          </div>
+
+          <div className="row">
+            <a href="#/blogs/gold-safe-investment-option-that-captivates-investor">
+            <div onClick={()=>{
+                // history.push()
+            }} className="tiles">
+    
+              <div className="heading">
+                <div className="image">
+                <img src={img6} alt="" />
+                </div>
+                <h2>Gold: Safe Investment Option that Captivates Investor</h2>
+              </div>
+              <div className="summary">
+                <p>
+                In the current technical advanced era, the concept of digital gold is
+          gaining a lot of recognition.....
+                </p>
+              </div>
+            </div>
+            </a>
+          </div>
+
+          <div className="row">
+            <a href="#/blogs/personal-finance-and-savings">
+            <div onClick={()=>{
+                // history.push()
+            }} className="tiles">
+    
+              <div className="heading">
+                <div className="image">
+                <img src={img7} alt="" />
+                </div>
+                <h2>Know the Investment Overview in India: Personal Finance and Savings</h2>
+              </div>
+              <div className="summary">
+                <p>
+                Know the Investment Overview in India: Personal Finance and Savings <br />
+Why do we need to save money? What is the main motive behind financial ...... 
+                </p>
+              </div>
+            </div>
+            </a>
+          </div>
+
+          <div className="row">
+            <a href="#/blogs/investment-option-that-captivates-investor">
+            <div onClick={()=>{
+                // history.push()
+            }} className="tiles">
+    
+              <div className="heading">
+                <div className="image">
+                <img src={img8} alt="" />
+                </div>
+                <h2>All You Need to Know about Gold Investment </h2>
+              </div>
+              <div className="summary">
+                <p>
+                All You Need to Know about Gold Investment
+Recently, a market has emerged from the shadows of the internet....
                 </p>
               </div>
             </div>

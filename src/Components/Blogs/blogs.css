@@ -2,6 +2,7 @@
 
 .blogsContainer{
     padding: 0px 80px;
+    
 }
 
 .blogs{
@@ -28,7 +29,10 @@
 }
 
 .blogs .blogsTiles{
+    margin-top: 30px;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .blogs .blogsTiles .tiles{
@@ -41,10 +45,11 @@
     transition: 0.1s ease-in;
     cursor: pointer;
     box-shadow: 0px 0px 5px gainsboro;
+
 }
 
 .blogs .blogsTiles .tiles:hover{
-    transform: scale(1.10);
+    transform: scale(1.02);
 }
 
 

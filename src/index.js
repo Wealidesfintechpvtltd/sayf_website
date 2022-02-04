@@ -24,8 +24,9 @@ import Blog2 from './Components/Blogs/Blog2'
 import Blog3 from './Components/Blogs/Blog3'
 import Blog4 from './Components/Blogs/Blog4'
 import Blog5 from './Components/Blogs/Blog5'
-
-
+import Blog6 from './Components/Blogs/Blog6'
+import Blog7 from './Components/Blogs/Blog7'
+import Blog8 from './Components/Blogs/Blog8'
 
 
 ReactDOM.render(
@@ -47,8 +48,9 @@ ReactDOM.render(
         <Route exact path="/blogs/7-surprising-facts"><Blog3/></Route>
         <Route exact path="/blogs/why-are-investors-so-obsessed-With-digital-gold"><Blog4/></Route>
         <Route exact path="/blogs/time-to-invest-in-digital-gold-with-sayf"><Blog5/></Route>
-
-
+        <Route exact path="/blogs/gold-safe-investment-option-that-captivates-investor"><Blog6/></Route>
+        <Route exact path="/blogs/personal-finance-and-savings"><Blog7/></Route>
+        <Route exact path="/blogs/investment-option-that-captivates-investor"><Blog8/></Route>
       </Switch>
       <Footer></Footer>
     </Router>
