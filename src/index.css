@@ -578,6 +578,9 @@ margin: auto;
     display: none;
   }
 
+  .blogs-link{
+    display: block;
+  }
 
   .hero-left p {
     font-size: 20px;

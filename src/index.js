@@ -27,6 +27,7 @@ import Blog5 from './Components/Blogs/Blog5'
 import Blog6 from './Components/Blogs/Blog6'
 import Blog7 from './Components/Blogs/Blog7'
 import Blog8 from './Components/Blogs/Blog8'
+import Blog9 from './Components/Blogs/Blog9'
 
 
 ReactDOM.render(
@@ -51,6 +52,7 @@ ReactDOM.render(
         <Route exact path="/blogs/gold-safe-investment-option-that-captivates-investor"><Blog6/></Route>
         <Route exact path="/blogs/personal-finance-and-savings"><Blog7/></Route>
         <Route exact path="/blogs/investment-option-that-captivates-investor"><Blog8/></Route>
+        <Route exact path="/blogs/gold-etf-all-you-need-to-know"><Blog9/></Route>
       </Switch>
       <Footer></Footer>
     </Router>

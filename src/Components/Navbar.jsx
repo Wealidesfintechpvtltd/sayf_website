@@ -24,7 +24,7 @@ const Navbar = () => {
         <div className='navbar'>
                 <a href="#/"><img src={Logo} alt="logo" height="40px" width="75px"/></a>
                 <div className="nav-right">
-                    <a  className='login-link' href="#/blogs">Blogs</a>
+                    <a  className='login-link blogs-link' href="#/blogs">Blogs</a>
                     <a href="#/dashboard" className='login-link'>Dashboard</a>
                     <div className="btn-download">
                     <span><img src={Gplay} alt="g" /></span>

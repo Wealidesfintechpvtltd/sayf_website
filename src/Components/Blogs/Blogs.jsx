@@ -10,6 +10,7 @@ import img5 from '../../assets/investInGold.PNG'
 import img6 from '../../assets/Investment.jpg'
 import img7 from '../../assets/Calculator.jpg'
 import img8 from '../../assets/Blog8.jpg'
+import img9 from '../../assets/blog9.jpg'
 
 const Blogs = () => {
 
@@ -187,6 +188,27 @@ Why do we need to save money? What is the main motive behind financial ......
                 <p>
                 All You Need to Know about Gold Investment
 Recently, a market has emerged from the shadows of the internet....
+                </p>
+              </div>
+            </div>
+            </a>
+          </div>
+
+          <div className="row">
+            <a href="#/blogs/gold-etf-all-you-need-to-know">
+            <div onClick={()=>{
+                // history.push()
+            }} className="tiles">
+    
+              <div className="heading">
+                <div className="image">
+                <img src={img9} alt="" />
+                </div>
+                <h2>Gold ETF: All You Need to Know</h2>
+              </div>
+              <div className="summary">
+                <p>
+                A Gold ETF, is popularly known as exchange-traded funds, is a commodity ETF........
                 </p>
               </div>
             </div>
