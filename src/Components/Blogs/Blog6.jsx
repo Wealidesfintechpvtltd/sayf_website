@@ -54,7 +54,7 @@ const Blog = () => {
         </div>
         <br />
         <p>
-           In the current technical advanced era, the concept of digital gold is
+          In the current technical advanced era, the concept of digital gold is
           gaining a lot of recognition because of the benefits while investing
           in digital gold. However, if you're not yet able to purchase or sell
           "digital gold" through a platform such as SayF and others, you don't
