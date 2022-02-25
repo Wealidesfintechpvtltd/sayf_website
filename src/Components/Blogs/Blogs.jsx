@@ -270,6 +270,31 @@ const Blogs = () => {
               </div>
             </a>
           </div>
+
+          <div className="row">
+            <a href="#/blogs/digital-gold-wallets-your-investment-buddy">
+              <div
+                onClick={() => {
+                  // history.push()
+                }}
+                className="tiles"
+              >
+                <div className="heading">
+                  <div className="image">
+                    <img src={img9} alt="" />
+                  </div>
+                  <h2>Digital Gold Wallets: Your Investment Buddy</h2>
+                </div>
+                <div className="summary">
+                  <p>
+                    The popularity of physical gold in India is insane, making
+                    the country the second largest buyer. However,
+                    investors........
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
         </div>
       </div>
     </div>

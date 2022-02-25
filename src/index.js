@@ -25,6 +25,7 @@ import Blog7 from "./Components/Blogs/Blog7";
 import Blog8 from "./Components/Blogs/Blog8";
 import Blog9 from "./Components/Blogs/Blog9";
 import Blog10 from "./Components/Blogs/essential-points-to-know-before-investing-in-digital-gold";
+import Blog11 from "./Components/Blogs/digital-gold-wallets-your-investment-buddy";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -98,6 +99,10 @@ ReactDOM.render(
           path="/blogs/essential-points-to-know-before-investing-in-digital-gold"
         >
           <Blog10 />
+        </Route>
+
+        <Route exact path="/blogs/digital-gold-wallets-your-investment-buddy">
+          <Blog11 />
         </Route>
       </Switch>
       <Footer></Footer>
