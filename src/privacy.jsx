@@ -88,35 +88,166 @@ const Privacy = () => {
         may affect Your enjoyment of certain functionalities on Our Platform.
         <br />
         <br />
-        5. Usage and Log Information: To make our Platform and Services more
+        5. Information collected and storage of Information The Information or
+        data provided by You to a SayF or collected from You by the SayF may
+        consist of “Personal Information”, “Sensitive Personal Information” and
+        “Non-Personal Information”.
+        <br />
+        <br />
+        6. Amendment of Privacy Policy This Privacy Policy may be amended /
+        updated from time to time. We will notify You of any amendment of, or
+        update to, the Privacy Policy, as is required under applicable laws.
+        <br />
+        <br />
+        7. Usage and Log Information: To make our Platform and Services more
         useful to you, our servers (which may be hosted by a third-party service
         provider) collect information from you, including your browser type,
-        operating system, Internet Protocol (IP)address (a number that is
+        app, operating system, Internet Protocol (IP)address (a number that is
         automatically assigned to your computer when you use the Internet, which
         may vary from session to session), domain name, and/or a date/time of
         your visit. We use this information to examine our traffic and to view
-        how our customers use our website. This type of information will not
-        allow you to be personally identified although we might be able to
-        associate it with your account. We process this usage data to facilitate
-        your access to our services in technical terms (e.g. to adjust our
-        services to the terminal device you are using), and to recognize and
-        stop any misuse. We also use usage data in anonymised form for
-        statistical purposes and to improve our website . Further, if You choose
-        to invest through the Platform, We will also collect information about
-        Your transactions including transaction status and details and Your
-        investment behaviour. We process this data to provide you Services.‍ All
-        transactional information including financial information gathered by
-        the Company shall be stored on servers, log files and any other storage
-        system owned by the Company or by third parties in India.
+        how our customers use our product. This type of information will allow
+        us to be personally identified. We will be able to associate it with
+        your account. We process this usage data to facilitate your access to
+        our services in technical terms (e.g. to adjust our services to the
+        terminal device you are using), and to recognize and stop any misuse. We
+        also use usage data in anonymised form for statistical purposes and to
+        improve our Product. Further, if You choose to make a transaction
+        through the Platform, We will also collect information about Your
+        transactions including transaction status and details and Your
+        investment behaviour. We process this data to provide you Services.
+        Provided any such Sensitive Personal Information that is freely
+        available or accessible in public domain or furnished under the Right to
+        Information Act, 2005 or any other law for the time being in force shall
+        not be regarded as Sensitive Personal Information and be regarded as
+        Personal Information. a.Such Sensitive Personal Information may be
+        collected in various ways including during the course of You: i)
+        registering as a user on the product; ii) registering as a merchant on
+        the product; iii) availing certain services offered on the product; iv)
+        otherwise doing business, transacting or attempting to transact on the
+        Website; or v) otherwise dealing with any of SayF.
         <br />
         <br />
-        ‍ The information collected allows Us to provide the Services and
-        features on the Platform that most likely meet Your needs, and to
-        customize the Platform to make Your experience safer and easier. We may
-        also collect certain non-personal information, such as Your internet
-        protocol address, web request, operating system, browser type, URL,
-        internet service provider, IP address, aggregate user data, browser
-        type, software and hardware attributes, pages You request, and cookie
+        8. Purpose of collecting, using, storing and processing Your Personal
+        Information/Non-Personal Information/Sensitive Personal Information a.
+        SayF reserves the right to collect, use, store, process and disclose
+        Your Personal Information/Non-Personal Information/Sensitive Personal
+        Information for any purpose that may be permissible based on the consent
+        obtained from You. SayF uses Personal Information/Non-Perosnal
+        Information/Sensitive Personal Information that is collected for lawful
+        purposes associated with the functions and activities of SayF, while
+        also respecting your privacy. Such purposes (“Purposes”) include but are
+        not limited to: (i) facilitating Your use of the Website or other
+        services of SayF; (ii) responding to Your inquiries or fulfilling Your
+        requests for information about the various products and services offered
+        on the product; (iii) providing You with information about products and
+        services available on the SayF product and sending You information,
+        materials, and offers about products and services of SayF: (iv) helping
+        You address Your problems incurred on the Website including addressing
+        any technical problems; (v) properly administering the Website; (vi)
+        personalizing Your experience on the Website by presenting
+        advertisements, products and offers tailored to Your preferences; (vii)
+        facilitating various programmes and initiatives launched by SayF by
+        itself or through a collaboration with Third Party Service Providers or
+        Banks; (viii) improving the services, content and advertising on the
+        product; (ix) responding to legal, judicial, quasi-judicial process and
+        providing information on law enforcement agencies or in connection with
+        an investigation on matters related to public safety, as permitted by
+        law; (x) conducting analytical studies on various aspects including user
+        behaviour, user preferences etc.; (xi) conducting analytical studies on
+        various aspects including user behaviour, user preferences etc.; (xii)
+        permitting third parties who may need to contact users who have bought
+        products from the Website to facilitate installation, service and any
+        other product related support; (xiii) implementing information security
+        practices; (xiv) determining any security breaches, computer contaminant
+        or computer virus; (xv) investigating, preventing, or taking action
+        regarding illegal activities and suspected fraud; (xvi) undertaking
+        forensics of the concerned computer resource as a part of investigation
+        or internal audit; (xvii) tracing computer resources or any person who
+        may have contravened, or is suspected of having or being likely to
+        contravene, any provision of law including the Information Technology
+        Act, 2000 that is likely to have an adverse impact on the services
+        provided on any Website or by SayF ; (xviii) enabling a potential buyer
+        or investor to evaluate the business of SayF; or (xix) sharing,
+        disclosing or transfer of such data in the event of any merger,
+        acquisition, reorganization or sale of assets or business of Freecharge
+        to a third party or in the event of bankruptcy of SayF. You hereby agree
+        and acknowledge that the Personal Information/Non-Personal
+        Information/Sensitive Personal Information so collected is for a lawful
+        purpose, connected with a function or activity of SayF or any person on
+        their respective behalf, and the collection of Personal
+        Information/Non-Personal Information/Sensitive Personal Information is
+        necessary for the Purposes.
+        <br />
+        <br />
+        9. Storage and Processing of Your Personal Information/Non-Personal
+        Information/Sensitive Personal Information. a. Your Personal
+        Information/Non-Personal Information/Sensitive Personal Information will
+        primarily be stored in electronic form. However, certain data may also
+        be stored in physical form. b.We may enter into agreements with third
+        parties (in or outside of India) to store or process Your Personal
+        Information/Non-Personal Information/Sensitive Personal Information.
+        These third parties may have their own security standards to safeguard
+        Your Personal Information/Non-Personal Information/Sensitive Personal
+        Information and We will, on commercially reasonable basis, require such
+        third parties to adopt reasonable security standards to safeguard Your I
+        Personal Information/Non-Personal Information/Sensitive Personal
+        Information, as per the requirements of applicable laws. c.
+        Notwithstanding the above, We use other third parties such as a
+        credit/debit card/ credit processing companies, payment gateways,
+        pre-paid cards etc. to enable You to make payments for buying products
+        or availing services on the Website. When You sign up for these
+        services, for faster future payments. In such case, We may share or
+        disclose Your relevant Personal Information/ as necessary for the third
+        parties to provide such services, including Your name, residence and
+        email address, contact details. The processing of payments or
+        authorization is solely in accordance with these third parties’
+        policies, terms and conditions and We are not in any manner responsible
+        or liable to You or any third party for any delay or failure at their
+        end in processing the payments. d. Freecharge may also share Personal
+        Information/Sensitive Personal Information with such third parties to
+        whom Freecharge believes it is necessary to do so in order to
+        investigate, prevent, or take action regarding illegal activities,
+        suspected fraud, situations involving potential threats to the physical
+        safety of any person, violations of various terms and conditions or Our
+        policies. e. SayF may transfer/disclose/share Non-Personal Information
+        to third parties who support Our business, such as providing technical
+        infrastructure services, analysing how Our services are used, measuring
+        the effectiveness of advertisements, providing customer / buyer
+        services, facilitating payments, or conducting academic research and
+        surveys. Such transferees shall adhere to confidentiality obligations
+        consistent with this Privacy Policy f. We reserve the right to disclose
+        Your Personal Information/Non-Personal Information/Sensitive Personal
+        Information when required to do so by law or regulation, or under any
+        legal obligation or order under law or in response to a request from a
+        law enforcement or governmental agency or judicial, quasi-judicial or
+        any other statutory or constitutional authority or to establish or
+        exercise Our legal rights or defend against legal claims. g.Third Party
+        Service Providers / Partners / Banks and Financial Institutions for one
+        or more of the Purposes, government agencies upon directions of such
+        agency, or to any other third party as may be required under applicable
+        law. In case of any Personal Information/Sensitive Personal Information
+        so transferred, shared, disclosed or parted with, We will contractually
+        oblige the receiving parties of the information to ensure the same level
+        of data protection adopted by Freecharge is adhered to by the receiving
+        party. h. Sharing and disclosure of Your Personal
+        Information/Non-Personal Information/Sensitive Personal Information You
+        hereby unconditionally agree and permit that Freecharge may transfer,
+        share, disclose or part with all or any of Your Personal
+        Information/Non-Personal Information/Sensitive Personal Information. i.
+        You further agree that such disclosure, sharing and transfer of Your
+        Personal Information/Non-Personal Information/Sensitive Personal
+        Information shall not cause any wrongful loss to You or to any third
+        party, or any wrongful gain to Us or to any third party.
+        <br />
+        <br />
+        The information collected allows Us to provide the Services and features
+        on the Platform that most likely meet Your needs, and to customize the
+        Platform to make Your experience safer and easier. We may also collect
+        certain non-personal information, such as Your internet protocol
+        address, web request, operating system, browser type, URL, internet
+        service provider, IP address, aggregate user data, browser type,
+        software and hardware attributes, pages You request, and cookie
         information, etc. which will not identify with You specifically (“Non –
         Personal Information”), while You browse, access or use the Platform. We
         receive and store Non – Personal Information, by the use of data
